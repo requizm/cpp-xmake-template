@@ -36,7 +36,7 @@ target("template-name")
     set_kind("binary")
     add_syslinks("Ole32")
     add_languages("c++20")
-    add_packages("fmt", "rapidjson", "reflect-cpp", "magic_enum")
+    add_packages("fmt", "reflect-cpp", "magic_enum")
     add_files("src/**.cpp")
     add_includedirs("src")
 
